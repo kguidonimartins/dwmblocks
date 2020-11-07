@@ -14,7 +14,7 @@ static const Block blocks[] = {
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = " | ";
-static unsigned int delimLen = 4;
+static char *delim = " | ";
+/* static unsigned int delimLen = 1; */
 
 // autocmd BufWritePost ~/.config/suckless/dwmblocks/blocks.h !cd ~/.config/suckless/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
