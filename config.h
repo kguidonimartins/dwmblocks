@@ -13,6 +13,7 @@ static const Block blocks[] = {
 /*Icon, Command,                                     Interval,   Signal */
 	{"" , "cat /tmp/recordingicon 2>/dev/null"             , 0    , 9  } ,
 	{"" , "~/.local/bin/tools/statusbar/music"             , 5    , 10 } ,
+	{"" , "~/.local/bin/tools/statusbar/bkpstatus"         , 5    , 10 } ,
 	{"" , "~/.local/bin/tools/statusbar/spotify"           , 5    , 11 } ,
 	{"" , "~/.local/bin/tools/statusbar/counttmuxsessions" , 5    , 5  } ,
 	{"" , "~/.local/bin/tools/statusbar/pacpackages"       , 0    , 8  } ,
