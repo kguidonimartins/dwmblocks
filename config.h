@@ -16,6 +16,7 @@ static const Block blocks[] = {
 	{"" , "~/.local/bin/tools/statusbar/bkpstatus"         , 5    , 10 } ,
 	{"" , "~/.local/bin/tools/statusbar/spotify"           , 5    , 11 } ,
 	{"" , "~/.local/bin/tools/statusbar/counttmuxsessions" , 5    , 5  } ,
+	{"" , "~/.local/bin/tools/statusbar/system_py"         , 5    , 0  } ,
 	{"" , "~/.local/bin/tools/statusbar/pacpackages"       , 0    , 8  } ,
 	{"" , "~/.local/bin/tools/statusbar/mailbox"           , 5    , 7  } ,
 	{"" , "~/.local/bin/tools/statusbar/volume"            , 1    , 12 } ,
