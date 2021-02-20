@@ -8,13 +8,14 @@
 	/* {"" , "~/.local/bin/tools/statusbar/system_py"         , 5    , 0  } , */
 	/* {"" , "~/.local/bin/tools/statusbar/docker"            , 5    , 0  } , */
 	/* {"" , "~/.local/bin/tools/statusbar/kbd_layout"        , 5    , 0  } , */
+	/* {"" , "~/.local/bin/tools/statusbar/spotify_status"    , 5    , 11 } , */
 
 static const Block blocks[] = {
 /*Icon, Command,                                     Interval,   Signal */
 	{"" , "cat /tmp/recordingicon 2>/dev/null"             , 0    , 9  } ,
 	{"" , "~/.local/bin/tools/statusbar/music"             , 5    , 10 } ,
 	{"" , "~/.local/bin/tools/statusbar/bkpstatus"         , 5    , 10 } ,
-	{"" , "~/.local/bin/tools/statusbar/spotify"           , 5    , 11 } ,
+	{"" , "~/.local/bin/tools/statusbar/ncspot_status"     , 5    , 11 } ,
 	{"" , "~/.local/bin/tools/statusbar/notify_emacs"      , 5    , 5  } ,
 	{"" , "~/.local/bin/tools/statusbar/counttmuxsessions" , 5    , 5  } ,
 	{"" , "~/.local/bin/tools/statusbar/system_py"         , 5    , 0  } ,
