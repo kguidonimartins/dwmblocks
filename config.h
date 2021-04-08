@@ -11,7 +11,7 @@
 	/* {"" , "~/.local/bin/tools/statusbar/spotify_status"    , 5    , 11 } , */
 
 static const Block blocks[] = {
-/*Icon, Command,                                     Interval,   Signal */
+/*Icon, Command,                                           Interval,   Signal */
 	{"" , "cat /tmp/recordingicon 2>/dev/null"             , 0    , 9  } ,
 	{"" , "~/.local/bin/tools/statusbar/music"             , 5    , 10 } ,
 	{"" , "~/.local/bin/tools/statusbar/bkpstatus"         , 5    , 10 } ,
@@ -24,7 +24,7 @@ static const Block blocks[] = {
 	{"" , "~/.local/bin/tools/statusbar/volume"            , 1    , 12 } ,
 	{"" , "~/.local/bin/tools/statusbar/internet"          , 10   , 4  } ,
 	{"" , "~/.local/bin/tools/statusbar/calendar"          , 3600 , 1  } ,
-	{"" , "~/.local/bin/tools/statusbar/clock"             , 60   , 0  } ,
+	{"" , "~/.local/bin/tools/statusbar/clock"             , 1    , 0  } ,
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
