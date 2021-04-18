@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 
 // change config here:
-// ~/.local/suckless/dwm/config.def.h
+// ~/.local/suckless/dwmblocks/config.h
 
 /* Available blocks */
 	/* {"" , "~/.local/bin/tools/statusbar/dwl"               , 5    , 13 } , */
@@ -24,11 +24,11 @@ static const Block blocks[] = {
 	{"" , "~/.local/bin/tools/statusbar/mailbox"           , 5    , 7  } ,
 	{"" , "~/.local/bin/tools/statusbar/volume"            , 1    , 12 } ,
 	{"" , "~/.local/bin/tools/statusbar/internet"          , 10   , 4  } ,
-        {"" , "~/.local/bin/tools/statusbar/notify_googledrive"      , 5    , 5  } ,
-        {"" , "~/.local/bin/tools/statusbar/notify_dropbox"      , 6    , 5  } ,
 	{"" , "~/.local/bin/tools/statusbar/calendar"          , 3600 , 1  } ,
 	{"" , "~/.local/bin/tools/statusbar/clock"             , 1    , 0  } ,
-        {"" , "~/.local/bin/tools/statusbar/notify_redshift"      , 6    , 5  } ,
+        /* {"" , "~/.local/bin/tools/statusbar/notify_googledrive"      , 5    , 5  } , */
+        /* {"" , "~/.local/bin/tools/statusbar/notify_dropbox"      , 6    , 5  } , */
+        /* {"" , "~/.local/bin/tools/statusbar/notify_redshift"      , 6    , 5  } , */
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
