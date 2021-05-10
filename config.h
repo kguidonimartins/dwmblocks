@@ -26,9 +26,9 @@ static const Block blocks[] = {
 	{"" , "~/.local/bin/tools/statusbar/internet"          , 10   , 4  } ,
 	{"" , "~/.local/bin/tools/statusbar/calendar"          , 3600 , 1  } ,
 	{"" , "~/.local/bin/tools/statusbar/clock"             , 1    , 0  } ,
-        {"" , "~/.local/bin/tools/statusbar/notify_googledrive", 5    , 3  } ,
-        {"" , "~/.local/bin/tools/statusbar/notify_dropbox"    , 6    , 5  } ,
-        {"" , "~/.local/bin/tools/statusbar/notify_redshift"   , 6    , 5  } ,
+        /* {"" , "~/.local/bin/tools/statusbar/notify_googledrive", 5    , 3  } , */
+        /* {"" , "~/.local/bin/tools/statusbar/notify_dropbox"    , 6    , 5  } , */
+        /* {"" , "~/.local/bin/tools/statusbar/notify_redshift"   , 6    , 5  } , */
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
