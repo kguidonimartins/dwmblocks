@@ -14,7 +14,8 @@ static const Block blocks[] = {
 /*Icon, Command,                                           Interval,   Signal */
 	{"" , "cat /tmp/recordingicon 2>/dev/null"             , 0    , 9  } ,
 	/* {"" , "~/.local/bin/tools/statusbar/music"             , 5    , 10 } , */
-	/* {"" , "~/.local/bin/tools/statusbar/bkpstatus"         , 5    , 10 } , */
+	{"祥 " , "~/.local/bin/tools/statusbar/pomodoro"       , 1    , 21 } ,
+	{"" , "~/.local/bin/tools/statusbar/bkpstatus"         , 5    , 10 } ,
 	{"" , "~/.local/bin/tools/statusbar/ncspot_status"     , 5    , 11 } ,
 	{"" , "~/.local/bin/tools/statusbar/notify_emacs"      , 5    , 5  } ,
 	{"" , "~/.local/bin/tools/statusbar/counttmuxsessions" , 5    , 6  } ,
