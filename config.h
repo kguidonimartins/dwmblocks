@@ -16,8 +16,8 @@ static const Block blocks[] = {
 	/* {"" , "~/.local/bin/tools/statusbar/music"             , 5    , 10 } , */
 	/* {"祥 " , "~/.local/bin/tools/statusbar/pomodoro"       , 1    , 21 } , */
 	{"" , "~/.local/bin/tools/statusbar/bkpstatus"         , 5    , 10 } ,
-	{"" , "~/.local/bin/tools/statusbar/ncspot_status"     , 5    , 11 } ,
-	/* {"" , "~/.local/bin/tools/statusbar/notify_emacs"      , 5    , 5  } , */
+	{"" , "~/.local/bin/tools/statusbar/mpris_status"     , 5    , 11 } ,
+	{"" , "~/.local/bin/tools/statusbar/notify_emacs"      , 5    , 18 } ,
 	{"" , "~/.local/bin/tools/statusbar/counttmuxsessions" , 5    , 6  } ,
 	{"" , "~/.local/bin/tools/statusbar/countrsessions"    , 5    , 5  } ,
 	{"" , "~/.local/bin/tools/statusbar/cpu_memory"        , 5    , 17 } ,
