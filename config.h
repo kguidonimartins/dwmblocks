@@ -23,7 +23,7 @@ static const Block blocks[] = {
 	{"" , "~/.local/bin/tools/statusbar/counttmuxsessions" , 5    , 6  } ,
 	{"" , "~/.local/bin/tools/statusbar/countrsessions"    , 5    , 5  } ,
 	{"" , "~/.local/bin/tools/statusbar/cpu_memory"        , 5    , 17 } ,
-	{"" , "~/.local/bin/tools/statusbar/pacpackages"       , 0    , 8  } ,
+	/* {"" , "~/.local/bin/tools/statusbar/pacpackages"       , 0    , 8  } , */
 	/* {"" , "~/.local/bin/tools/statusbar/mailbox"           , 5    , 7  } , */
 	{"" , "~/.local/bin/tools/statusbar/volume"            , 1    , 12 } ,
 	{"" , "~/.local/bin/tools/statusbar/internet"          , 10   , 4  } ,
